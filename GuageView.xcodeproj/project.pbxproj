@@ -12,6 +12,8 @@
 		4B8E25F61F8119070089F79A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8E25F41F8119070089F79A /* Main.storyboard */; };
 		4B8E25F81F8119070089F79A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B8E25F71F8119070089F79A /* Assets.xcassets */; };
 		4B8E25FB1F8119070089F79A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8E25F91F8119070089F79A /* LaunchScreen.storyboard */; };
+		4B8E26031F81192C0089F79A /* GuageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8E26021F81192C0089F79A /* GuageView.swift */; };
+		4B8E26051F8122CF0089F79A /* WMGaugeViewStyleFlatThin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8E26041F8122CF0089F79A /* WMGaugeViewStyleFlatThin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4B8E25F71F8119070089F79A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B8E25FA1F8119070089F79A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B8E25FC1F8119070089F79A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B8E26021F81192C0089F79A /* GuageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuageView.swift; sourceTree = "<group>"; };
+		4B8E26041F8122CF0089F79A /* WMGaugeViewStyleFlatThin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMGaugeViewStyleFlatThin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				4B8E25F71F8119070089F79A /* Assets.xcassets */,
 				4B8E25F91F8119070089F79A /* LaunchScreen.storyboard */,
 				4B8E25FC1F8119070089F79A /* Info.plist */,
+				4B8E26021F81192C0089F79A /* GuageView.swift */,
+				4B8E26041F8122CF0089F79A /* WMGaugeViewStyleFlatThin.swift */,
 			);
 			path = GuageView;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B8E26051F8122CF0089F79A /* WMGaugeViewStyleFlatThin.swift in Sources */,
 				4B8E25F31F8119070089F79A /* ViewController.swift in Sources */,
+				4B8E26031F81192C0089F79A /* GuageView.swift in Sources */,
 				4B8E25F11F8119070089F79A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
